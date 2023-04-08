@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Montserrat:wght@300&family=Poppins:ital,wght@0,300;1,200&family=Roboto:wght@300&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Montserrat:wght@300&family=Poppins:ital,wght@0,300;1,200&family=Raleway:wght@200;400&family=Roboto:wght@300&family=Rubik:ital,wght@1,300&display=swap');
+.heading{
+  font-size: 35px;
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.write{
+  border: 1px solid black;
+  font-family: 'Raleway', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn{
+  border-radius: 5px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.textsummary{
+  font-size: 30px;
+  font-family: 'Anuphan', sans-serif;
+  margin-top: 30px;
+
+}
+
+.inner{
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* .hii .inner1{
+  width: 1270px;
+  overflow-x: scroll;
+  scrollbar-width: 1px;
+} */
+
+.alert1{
+  font-size: 12px;
+  padding: 3px;
+}
+
+.abouttext{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.accordion-body{
+  font-family: 'Anuphan', sans-serif;
+  font-size: 15px;
+}
+
+@media (max-width: 1230px) {
+  .heading{
+    font-size: 27px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 440px) {
+  .abouttext{
+    font-size: 15px;
   }
-  to {
-    transform: rotate(360deg);
+  .accordion-body{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 260px) {
+  .abouttext{
+    font-size: 12px;
+  }
+  .accordion-body{
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading{
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .heading{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1222px) {
+  .btn{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 774px) {
+  .btn{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 555px) {
+  .textsummary{
+    font-size: 20px;
+  }
+  .inner{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .heading{
+    font-size: 12px;
+  }
+  .textsummary{
+    font-size: 15px;
+  }
+  .inner{
+    font-size: 7px;
   }
 }
