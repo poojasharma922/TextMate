@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TextMate/static/css/main.217ef07d.css",
+    "main.js": "/TextMate/static/js/main.088abe40.js",
+    "index.html": "/TextMate/index.html",
+    "main.217ef07d.css.map": "/TextMate/static/css/main.217ef07d.css.map",
+    "main.088abe40.js.map": "/TextMate/static/js/main.088abe40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.217ef07d.css",
+    "static/js/main.088abe40.js"
+  ]
+}
