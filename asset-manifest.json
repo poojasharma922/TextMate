@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TextMate/static/css/main.217ef07d.css",
-    "main.js": "/TextMate/static/js/main.74610db0.js",
+    "main.js": "/TextMate/static/js/main.57af3ce6.js",
     "index.html": "/TextMate/index.html",
     "main.217ef07d.css.map": "/TextMate/static/css/main.217ef07d.css.map",
-    "main.74610db0.js.map": "/TextMate/static/js/main.74610db0.js.map"
+    "main.57af3ce6.js.map": "/TextMate/static/js/main.57af3ce6.js.map"
   },
   "entrypoints": [
     "static/css/main.217ef07d.css",
-    "static/js/main.74610db0.js"
+    "static/js/main.57af3ce6.js"
   ]
 }
